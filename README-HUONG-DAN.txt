@@ -1,17 +1,29 @@
-HƯỚNG DẪN ĐƯA WEBSITE LÊN GITHUB PAGES
+HƯỚNG DẪN CẬP NHẬT WEBSITE XE TAXI TÂY NINH
 
-1. Giải nén ZIP.
-2. Mở repository GitHub của bạn.
+Bản nâng cấp này đã được thiết lập đường dẫn chuẩn cho GitHub Pages:
+https://xetaxitayninh.github.io/xe-taxi-tay-ninh/
+
+NỘI DUNG
+- Trang chủ mới, nội dung chuyên sâu hơn và nút gọi điện.
+- Trang dịch vụ, khu vực, tuyến đường, giới thiệu, liên hệ, chính sách bảo mật.
+- Ảnh minh họa taxi trong assets/taxi-minh-hoa-tay-ninh.png.
+- CSS trong assets/style.css.
+- robots.txt và sitemap.xml.
+
+CÁCH ĐƯA LÊN GITHUB (điện thoại)
+1. Giải nén file ZIP này trên điện thoại.
+2. Mở repository: https://github.com/xetaxitayninh/xe-taxi-tay-ninh
 3. Chọn Add file > Upload files.
-4. Tải TOÀN BỘ tệp và thư mục bên trong thư mục xe-taxi-tay-ninh-seo lên repository; index.html phải nằm ở thư mục gốc.
-5. Chọn Commit changes.
-6. Vào Settings > Pages.
-7. Chọn Deploy from a branch, branch main, folder /(root), rồi Save.
-8. Đợi GitHub Pages xuất bản và mở https://xetaxitayninh.github.io/
+4. Tải TOÀN BỘ NỘI DUNG bên trong thư mục xe-taxi-tay-ninh-ban-nang-cap lên thư mục gốc repository, giữ nguyên thư mục assets.
+5. Nếu GitHub hỏi ghi đè tệp trùng tên, xác nhận thay thế các tệp cũ bằng bản mới.
+6. Nhấn Commit changes.
+7. Đợi GitHub Pages triển khai rồi mở website để kiểm tra.
 
-LƯU Ý:
-- Nếu tên tài khoản/repository khác, sửa URL canonical trong các file HTML và URL trong sitemap.xml.
-- Đây là website tĩnh, không có hệ thống đặt xe trực tuyến hoặc lưu dữ liệu khách.
-- Kiểm tra phạm vi điều xe thực tế; nhận yêu cầu không đồng nghĩa có xe thường trực tại mọi địa bàn.
-- Rà soát thông tin pháp lý, địa chỉ hành chính và chính sách bảo mật trước khi quảng cáo.
-- Không thể bảo đảm thứ hạng Google hoặc việc Google Ads phê duyệt chỉ bằng cấu trúc website.
+LƯU Ý QUAN TRỌNG
+- Không tải thư mục bao ngoài thành một thư mục con trong repository. index.html phải nằm ngay ở gốc repository.
+- Hotline được đặt là 0868 670 870.
+- Nội dung nhận đặt xe 24/24 dựa trên thông tin chủ doanh nghiệp cung cấp; lịch xe cụ thể vẫn cần xác nhận.
+- Ảnh xe là ảnh minh họa AI, không phải ảnh đội xe thực tế.
+- Không có giá cước, địa chỉ văn phòng, số lượng xe, giấy phép, lời chứng thực hoặc cam kết thời gian đón nào được tự tạo.
+- Chủ website cần kiểm tra chính sách bảo mật và các thông tin pháp lý trước khi dùng quảng cáo.
+- Sau khi cập nhật, hãy kiểm tra các nút gọi điện, mọi trang, hình ảnh và nội dung trên điện thoại.
